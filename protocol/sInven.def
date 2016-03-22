@@ -11,6 +11,8 @@ int32  itemLevel
 int32  unk4
 int32  unk5
 int32  unk6
+int32  unk7
+int32  unk8
 
 array items
 - count  bonuses
