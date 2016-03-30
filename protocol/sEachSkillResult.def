@@ -14,12 +14,15 @@ uint16 type
 uint16 type2
 uint16 crit
 byte   knockdown
-byte   unk2
+byte   unk2 # 0..5?
+byte   unk7 # bool
+byte   unk8 # bool
+byte   unk9 # bool
 float  x
 float  y
 float  z
 int16  w
-int32  unk3 # effect type?
+int32  skill # usually 0?
 int32  unk4 # always 0?
 int32  attackid
 
