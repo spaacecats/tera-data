@@ -22,7 +22,7 @@ float  x
 float  y
 float  z
 int16  w
-int32  skill # usually 0?
+int32  skill2 # usually 0?
 int32  unk4 # always 0?
 int32  attackid
 
