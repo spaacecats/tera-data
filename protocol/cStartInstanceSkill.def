@@ -1,0 +1,22 @@
+count  targets
+offset targets
+count  locs
+offset locs
+
+uint32 skill
+float  x
+float  y
+float  z
+int16  w
+byte   unk
+
+# For some reason, TERA puts `locs` after the first target.
+# This will currently cause parse warnings, but it will still read properly.
+array  targets
+- int32  unk
+- uint64 target
+
+array  locs
+- float x
+- float y
+- float z
