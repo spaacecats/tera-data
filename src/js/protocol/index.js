@@ -6,7 +6,7 @@ var Stream = require('./stream');
 
 // constants
 var PATH_DEFS = path.join(__dirname, '../../../protocol');
-var FILE_MAPDEF = '_map.def';
+var FILE_MAPDEF = path.join(__dirname, '../../../map/protocol.def');
 
 // helpers
 function getLength(message, data) {
@@ -72,8 +72,7 @@ var _module = module.exports = {
     var messages = _module.messages = {};
 
     // read map
-    var filepath = path.join(PATH_DEFS, FILE_MAPDEF);
-    var data = fs.readFileSync(filepath, { encoding: 'utf8' }).split(/\r?\n/);
+    var data = fs.readFileSync(FILE_MAPDEF, { encoding: 'utf8' }).split(/\r?\n/);
     for (i = 0, len = data.length; i < len; i++) {
       // clean line
       var line = data[i].replace(/#.*$/, '').trim();
@@ -82,7 +81,7 @@ var _module = module.exports = {
       // match syntax
       line = line.match(/^(\S+)\s+(\S+)$/);
       if (!line) {
-        console.error('parse error: malformed line (%s:%d)', FILE_MAPDEF, i);
+        console.error('parse error: malformed line (%s:%d)', FILE_MAPDEF, i + 1);
         return false;
       }
 
@@ -90,7 +89,7 @@ var _module = module.exports = {
       var name = line[1];
       var code = parseInt(line[2]);
       if (isNaN(code)) {
-        console.error('parse error: non-numeric opcode (%s:%d)', FILE_MAPDEF, i);
+        console.error('parse error: non-numeric opcode (%s:%d)', FILE_MAPDEF, i + 1);
         return false;
       }
 
@@ -103,11 +102,11 @@ var _module = module.exports = {
     var files = fs.readdirSync(PATH_DEFS);
     for (i = 0, len = files.length; i < len; i++) {
       var file = files[i];
-      if (file === FILE_MAPDEF || path.extname(file) !== '.def') {
+      if (file === '_map.def' || path.extname(file) !== '.def') {
         continue;
       }
 
-      filepath = path.join(PATH_DEFS, file);
+      var filepath = path.join(PATH_DEFS, file);
       data = fs.readFileSync(filepath, { encoding: 'utf8' }).split(/\r?\n/);
 
       var message = [];
@@ -121,7 +120,7 @@ var _module = module.exports = {
 
         line = line.match(/^((?:\s*-)*)?\s*(\S+)\s*(\S+)$/);
         if (!line) {
-          console.error('parse error: malformed line (%s:%d)', file, j);
+          console.error('parse error: malformed line (%s:%d)', file, j + 1);
           return false;
         }
 
@@ -130,7 +129,7 @@ var _module = module.exports = {
         var key = line[3];
         if (depth > order.length) {
           if (depth !== order.length + 1) {
-            console.warn('parse warning: array nesting too deep (%s:%d)', name, j);
+            console.warn('parse warning: array nesting too deep (%s:%d)', name, j + 1);
           }
           var id = top.length - 1;
           top = top[id][1];
