@@ -4,6 +4,6 @@ offset guild
 int32  sysmsg
 int32  quest
 int32  unk1
-int32  unk2
+int32  unk2 # minutes remaining?
 string user
 string guild
