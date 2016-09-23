@@ -1,0 +1,57 @@
+count  quests
+offset quests
+offset guildName
+offset guildMaster
+
+int32  guildId
+int32  guildMasterId
+int32  guildLevel
+int64  guildXp
+int64  guildXpForLevel
+int64  guildFunds
+int32  characters
+int32  accounts
+int32  size
+int64  creationDate
+int32  completedQuests
+int32  maxQuests
+string guildName
+string guildMaster
+
+array  quests
+- count  targets
+- offset targets
+- count  unk2
+- offset unk2
+- count  rewards
+- offset rewards
+- offset name
+- offset description
+- offset guildName
+
+- int32  id
+- int32  type # 0 = hunt, 2 = gather, 4 = pvp ?
+- int32  size
+- byte   unk3
+- int32  unk4
+- int32  unk5
+- int32  timeRemaining
+- int32  unk6
+- int32  unk7
+- byte   accepted
+- string name
+- string description
+- string guildName
+
+- array  targets
+- - int32 info1
+- - int32 info2
+- - int32 unk2 # completed?
+- - int32 count
+
+- array  unk2 # currently completely unknown
+- - byte unk  # placeholder to ensure array is populated if there are items
+
+- array  rewards
+- - int32 item
+- - int64 amount
