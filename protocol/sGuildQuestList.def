@@ -30,15 +30,15 @@ array  quests
 - offset guildName
 
 - int32  id
-- int32  type # 0 = hunt, 2 = gather, 4 = pvp ?
+- int32  unk1 # determines how to display name and description strings
 - int32  size
-- byte   unk3
-- int32  unk4 # minutes remaining?
-- int32  unk5
+- byte   isRally
+- int32  unk4 # always 720?
+- int32  status # 0 = not taken, 1 = in progress, 2 = completed
 - int32  timeRemaining
-- int32  unk6
+- int32  type # 0 = other, 1 = boss, 2 = bg, 3 = gather, 4 = rally
 - int32  unk7
-- byte   accepted
+- byte   unk8
 - string name
 - string description
 - string guildName
