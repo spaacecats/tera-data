@@ -3882,4 +3882,9 @@ smtGuildPopupNo 3880
 smtGuildSkillFailAuthority 3881
 smtEscapeFailedRegion 3882
 smtCannotChangeGuildMasterCharDelete 3883
-smtMax 3884
+smtCitywarGuildKill 3884
+smtCitywarGuildDeath 3885
+smtCitywarRewardContribution 3886
+smtOptimizeTextureLodup 3887
+smtGquestFailAccept 3888
+smtMax 3889
