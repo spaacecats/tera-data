@@ -2,6 +2,7 @@ count  unk6
 offset unk6
 
 uint64 source
+uint64 id # 0 or projectile owner id
 uint64 target
 uint32 model
 uint32 skill
