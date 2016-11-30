@@ -2,6 +2,7 @@
 offset unk22
 offset unk21
 
+int32  unk23 #added with 30-raid
 uint64 id
 uint64 target
 float  x
