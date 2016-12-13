@@ -71,9 +71,6 @@ int32  costumeDye # ?
 int32  unk37
 int32  unk38
 byte   unk39 # boolean?
-int32  unk40 # 0-3? faction?
-int32  unk41
-int32  unk42 # 0-4?
 byte   unk43 # always 1?
 int32  unk44
 int32  unk45 # always 0?
