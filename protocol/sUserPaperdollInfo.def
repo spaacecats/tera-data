@@ -123,5 +123,6 @@ array  items
 
 array  instances
 - int32 id
+- int32 unknown
 - int32 cooldown
 - int16 entries
