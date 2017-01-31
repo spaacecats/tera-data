@@ -107,6 +107,14 @@ class Writeable {
   }
 
   uint64(obj) {
+    if (typeof obj === 'number') {
+      if (!Number.isSafeInteger(obj)) {
+        console.warn(new Error('unsafe integer was provided'));
+      }
+
+      obj = Long.fromNumber(obj, true);
+    }
+
     this.uint32(obj.low);
     return this.uint32(obj.high);
   }
@@ -123,6 +131,14 @@ class Writeable {
   }
 
   int64(obj) {
+    if (typeof obj === 'number') {
+      if (!Number.isSafeInteger(obj)) {
+        console.warn(new Error('unsafe integer was provided'));
+      }
+
+      obj = Long.fromNumber(obj, false);
+    }
+
     this.uint32(obj.low);
     return this.int32(obj.high);
   }
