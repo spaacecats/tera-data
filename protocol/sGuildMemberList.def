@@ -33,8 +33,9 @@ array members
 - int32  class
 - int32  gender
 - int32  status # 0 = online, 2 = offline
-- int32  contribution
-- int32  unk2 # (contribution2?)
+- int32  contributionCurrent
+- int32  contributionTotal # maybe int64?
 - int32  unk3
+- uint64 lastOnline # in seconds
 - string name
 - string note

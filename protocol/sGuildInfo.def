@@ -1,7 +1,6 @@
 count  ranks
 offset ranks
 offset name
-offset title
 offset master
 offset motd
 offset myRank
