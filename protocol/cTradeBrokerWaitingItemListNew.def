@@ -7,7 +7,7 @@ uint32 lvlMin
 uint32 lvlMax
 uint32 rarity #0 = all, 1 = uncommon, 2 = rare, 3 = superior
 byte negotiable
-uint16 idStatus #0 = all, 1 = enigmatic, 2 = identified
+uint32 idStatus #0 = all, 1 = enigmatic, 2 = identified
 byte masterwork
 byte enchantable
 int32 itemLvlMin
@@ -19,16 +19,16 @@ int32 enchantMax
 int64 priceMin
 int64 priceMax
 int16 unk1
+int16 unk11
 int16 exact # exact phrase
 int16 unk2 # always 1?
 int16 unk3
 int32 unk4
 int32 unk5
 int32 unk6
-byte unk7
-byte unk8
-int16 unk9
+
 string query
 string categories
 string items
 string query2
+
