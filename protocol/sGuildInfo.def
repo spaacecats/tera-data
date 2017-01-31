@@ -38,7 +38,6 @@ int32 unk18 # join method?
 int32 unk19 # 2
 byte  unk20
 string name
-string title
 string master
 string motd
 string myRank
