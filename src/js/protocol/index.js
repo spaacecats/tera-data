@@ -44,7 +44,7 @@ function resolveIdentifier(identifier, defaultName = '<Object>') {
 
     case 'string': {
       if (!$map.name.has(identifier)) {
-        console.warn(`[protocol] resolveIdentifier: code not known for message "${identifier}"`);
+        console.warn(new Error(`code not known for message "${identifier}"`));
       }
 
       name = identifier;
