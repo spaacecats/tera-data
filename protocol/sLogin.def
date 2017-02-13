@@ -6,7 +6,8 @@ count  details2
 
 uint32 model
 uint64 cid
-uint64 pid
+uint32 serverId
+uint32 playerId
 int32  unk1
 byte   unk2
 int32  unk3
