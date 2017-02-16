@@ -107,7 +107,7 @@ function getLength(definition, data) {
 
   for (const [key, type] of definition) {
     if (Array.isArray(type)) {
-      for (const elem of type) {
+      for (const elem of data[key]) {
         // add here offset + next offset + recursive length
         length += 4 + getLength(type, elem);
       }
