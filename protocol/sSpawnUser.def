@@ -7,7 +7,6 @@ offset guild
 offset guildRank
 offset details
 count  details
-offset guildTitle
 offset guildEmblem
 offset details2
 count  details2
@@ -81,7 +80,6 @@ string name
 string guild
 string guildRank
 bytes  details
-string guildTitle
 string guildEmblem
 bytes  details2
 
