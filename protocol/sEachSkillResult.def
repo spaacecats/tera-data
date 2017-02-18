@@ -1,8 +1,8 @@
-count  unk6
-offset unk6
+count  unkArray
+offset unkArray
 
 uint64 source
-uint64 id # 0 or projectile owner id
+uint64 id0 # 0 or projectile owner id
 uint64 target
 uint32 model
 uint32 skill
@@ -14,20 +14,24 @@ uint32 damage
 uint16 type
 uint16 type2
 uint16 crit
-byte   knockdown
-byte   unk2 # 0..5?
-byte   unk7 # bool
-byte   unk8 # bool
-byte   unk9 # bool
-float  x
-float  y
-float  z
-int16  w
-int32  skill2 # usually 0?
-int32  unk4 # always 0?
-int32  attackid
+byte   blocked
+byte   unk2 # 0?
+byte   unk3 # 0?
+byte   unk4 # 0?
+byte   unk5 # 0?
+byte   setTargetAction # Used for knockdown, stagger etc.
+byte   unk6 # teleport?
+byte   unk7
+byte   unk8
+float  targetX
+float  targetY
+float  targetZ
+int16  targetW
+uint32 targetAction
+uint32 targetStage
+uint32 targetId
 
-array  unk6
+array  unkArray # Set with targetAction
 - int32 unk1
 - float unk2
 - float unk3
