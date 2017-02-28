@@ -23,6 +23,9 @@ int64  expTotal
 int64  expShown
 int64  expToNext
 int32  unk3
+int32  unk31
+int32  unk32
+int32  unk33
 int32  weapon
 int32  chest
 int32  gloves
