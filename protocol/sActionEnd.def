@@ -5,5 +5,5 @@ float  z
 int16  w
 uint32 model
 uint32 skill
-int32  unk
+uint32 type
 uint32 id
