@@ -1,5 +1,5 @@
-count  unkArray
-offset unkArray
+count  targetMovement
+offset targetMovement
 
 uint64 source
 uint64 id0 # 0 or projectile owner id
@@ -31,8 +31,8 @@ uint32 targetAction
 uint32 targetStage
 uint32 targetId
 
-array  unkArray # Set with targetAction
-- int32 unk1
-- float unk2
-- float unk3
-- float unk4
+array targetMovement
+- int32 duration
+- float speed
+- float unk # always 1?
+- float distance
