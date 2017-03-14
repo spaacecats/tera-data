@@ -1,5 +1,5 @@
-﻿count  effects
-offset effects
+﻿count  movement
+offset movement
 
 uint64 source
 float  x
@@ -18,3 +18,9 @@ float  toY
 float  toZ
 int32  unk2
 int32  unk3
+
+array movement
+- int32 duration
+- float speed
+- float unk # always 1?
+- float distance
