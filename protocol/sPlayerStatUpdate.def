@@ -48,7 +48,7 @@ int32 curStamina
 int32 maxStamina
 int32 curRe
 int32 maxRe
-int32 unk5
+int32 bonusRe
 int32 unk6
 int32 itemLevelInventory
 int32 itemLevel
