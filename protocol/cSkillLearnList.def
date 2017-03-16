@@ -1,1 +1,1 @@
-uint32 unk # always FFFFFFFF?
+int32 unk # always FFFFFFFF?
