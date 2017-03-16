@@ -10,7 +10,7 @@ uint32 model
 uint32 skill
 uint32 stage
 float  speed
-uint32 id
+uint32 id # must match the corresponding sActionEnd
 float  unk
 byte   unk1
 float  toX
