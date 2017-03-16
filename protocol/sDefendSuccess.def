@@ -1,5 +1,5 @@
 uint32 unk1
 uint32 unk2
-uint32 unk3
-uint32 unk4
-byte perfect
+uint32 unk3 # differs based on skill used, but doesn't seem to be skill id?
+uint32 unk4 # always 0?
+byte perfect # brawler PBs, torrent of blows, wallop, etc
