@@ -1,6 +1,0 @@
-uint32 skill
-uint32 unk1
-float x
-float y
-float z
-int16 w
