@@ -72,14 +72,9 @@ int32  unk30
 int32  unk31
 int32  unk32
 int32  unk33
-byte   unk34
+int32  unk34
 int32  unk35
-int32  unk36
-int32  unk37
-float  unk38
-int32  unk39
-byte   unk40
-int32  unk41
+int16  unk36
 string name
 bytes  details
 bytes  details2

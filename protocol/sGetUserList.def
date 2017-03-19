@@ -9,7 +9,6 @@ int32  unk4
 int16  unk5
 int32  unk6
 int32  unk7
-int32  unk8
 array  characters
 - int32  unk1
 - offset name
@@ -85,6 +84,13 @@ array  characters
 - int16  unk38
 - byte   unk39 # rested?
 - int32  unk40 # 100?
+- int32  unk41
+- int32  unk42
+- int32  unk43
+- int32  unk44
+- int32  unk45
+- int32  unk46
+- int32  unk47
 - string name
 - bytes  details
 - bytes  details2
