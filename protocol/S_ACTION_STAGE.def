@@ -1,5 +1,5 @@
-﻿count  effects
-offset effects
+﻿count  movement
+offset movement
 
 uint64 source
 float  x
@@ -10,11 +10,17 @@ uint32 model
 uint32 skill
 uint32 stage
 float  speed
-uint32 id
+uint32 id # must match the corresponding sActionEnd
 float  unk
-int32  unk1
+byte   unk1
+float  toX
+float  toY
+float  toZ
 int32  unk2
 int32  unk3
-int32  unk4
-int32  unk5
-byte   unk6
+
+array movement
+- int32 duration
+- float speed
+- float unk # always 1?
+- float distance
