@@ -2,7 +2,7 @@
   "name": "tera-data",
   "author": "meishu",
   "version": "1.0.0",
-  "description": "",
+  "description": "Platform agnostic repository for information about TERA packets and system messages.",
   "main": "package.json",
   "repository": "meishuu/tera-data",
   "homepage": "https://github.com/meishuu/tera-data#readme",
