@@ -15,6 +15,7 @@ byte   unk
 array  targets
 - int32  unk
 - uint64 target
+- int32 unk2
 
 array  locs
 - float x
