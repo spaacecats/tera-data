@@ -2,7 +2,7 @@ offset os
 offset cpu
 offset gpu
 
-uint32 unk1 # system memory maybe?
+uint32 systemMemory
 uint32 unk2
 uint32 resWidth
 uint32 resHeight
