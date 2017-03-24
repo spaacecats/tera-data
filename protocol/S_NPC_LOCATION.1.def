@@ -7,4 +7,4 @@ int16  speed
 float  x2
 float  y2
 float  z2
-int32  type
+int32  type # 0, 7
