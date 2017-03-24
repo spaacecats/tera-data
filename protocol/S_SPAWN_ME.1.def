@@ -4,4 +4,4 @@ float  y
 float  z
 int16  w
 byte   alive
-byte   unk
+byte   unk # always 0?
