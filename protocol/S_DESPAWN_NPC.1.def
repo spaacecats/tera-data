@@ -2,5 +2,5 @@ uint64 target
 float  x
 float  y
 float  z
-uint32 type
-int32  unk
+uint32 type # always 1?
+int32  unk # always 0?
