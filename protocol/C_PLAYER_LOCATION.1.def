@@ -6,7 +6,7 @@ int16 unk2
 float x2
 float y2
 float z2
-int32 type
+int32 type # 0, 7
 int16 speed
-byte  unk
+byte  unk # always 0?
 int32 time
