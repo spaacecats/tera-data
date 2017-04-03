@@ -1,3 +1,6 @@
-uint32 unk # array?
+array charms # always empty now?
+- uint32 charmId
+- uint32 duration
+- byte status
 uint32 serverId
 uint32 playerId
