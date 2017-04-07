@@ -1,7 +1,18 @@
+uint64 id
+int64  coins
+byte   inventory
+byte   first
+byte   more
+int32  size
+int32  itemLevelInventory
+int32  itemLevel
+int32  unk4
+int32  unk5
+int32  unk6
+int32  unk7
+int32  unk8
+
 array items
-- array bonuses
-- - uint32 passivityId
-- string unk1 # possibly custom text?
 - uint32 item
 - uint64 uid # no cid flags
 - uint64 ownerId # no cid flags
@@ -40,16 +51,8 @@ array items
 - uint32 unk22
 - bool   equipped
 - byte   unk23
-uint64 id
-int64  coins
-byte   inventory
-byte   first
-byte   more
-int32  size
-int32  itemLevelInventory
-int32  itemLevel
-int32  unk4
-int32  unk5
-int32  unk6
-int32  unk7
-int32  unk8
+
+- array bonuses
+- - uint32 passivityId
+
+- string unk1 # possibly custom text?
