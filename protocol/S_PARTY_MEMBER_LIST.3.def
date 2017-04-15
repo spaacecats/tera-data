@@ -1,27 +1,30 @@
 count  members
 offset members
 
-byte   ims
-byte   raid
-int32  unk1
-int32  unk2
-int32  unk3
-uint64 leader
-int32  unk4
-int32  unk5
-int16  unk6
-int32  unk7
-int32  unk8
-byte   unk9
+bool   ims
+bool   raid
+uint32 unk1
+uint32 unk2 # unk2-4 are the same as unk1-3 in S_PARTY_INFO?
+uint16 unk3
+uint16 unk4
+uint32 leaderServerId
+uint32 leaderPlayerId
+uint32 unk5 # 1?
+uint32 unk6 # 1?
+byte   unk7 # 0?
+uint32 unk8 # 1?
+byte   unk9 # 0?
+uint32 unk10 # 1?
+byte   unk11 # 0?
 array  members
 - offset name
 - uint32 serverId
 - uint32 playerId
-- int32  level
-- int32  class
-- byte   status
+- uint32 level
+- uint32 class # 0..12
+- bool   online
 - uint64 cID
-- int32  order
-- byte   canInvite
-- int32  unk
+- int32  order # 0..n
+- byte   canInvite # ?
+- uint32 unk # 2?
 - string name
