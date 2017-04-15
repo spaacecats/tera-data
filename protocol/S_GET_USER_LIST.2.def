@@ -1,50 +1,41 @@
-count  characters
-offset characters
+byte   unk1 # 1?
+int32  unk2 # 0?
+uint32 maxCharacters
+int16  unk5 # 1?
+int32  unk3 # 0?
+int32  unk4 # 40?
+int32  unk6 # 0?
+int32  unk7 # 24?
 
-byte   unk1
-int32  unk2
-int32  unk3
-int32  maxCharacters
-int32  unk4
-int16  unk5
-int32  unk6
-int32  unk7
 array  characters
-- int32  unk1
-- offset name
-- offset details
-- count  details
-- offset details2
-- count  details2
-- offset guild
-- int32  id
-- int32  gender
-- int32  race
-- int32  class
-- int32  level
+- uint32 id
+- uint32 gender # 1 = female, 2 = male
+- uint32 race # 0..5
+- uint32 class # 0..12
+- uint32 level
 - int32  unk2
 - int32  unk3
-- int32  location1
-- int32  location2
-- int32  location3
-- int64  lastOnline
+- uint32 worldMapWorldId
+- uint32 worldMapGuardId
+- uint32 areaNameId
+- int64  lastOnline # unix
 - byte   unk4
 - int32  unk5
 - int32  unk6
 - int32  unk7
-- int32  unk8
-- int32  earring1
-- int32  earring2
-- int32  chest
-- int32  gloves
-- int32  boots
+- uint32 weapon # item ids
+- uint32 earring1
+- uint32 earring2
+- uint32 chest
+- uint32 gloves
+- uint32 boots
 - int32  unk9
-- int32  ring1
-- int32  ring2
-- int32  innerwear
-- int32  head
-- int32  face
-- int64  appearance # ?
+- uint32 ring1
+- uint32 ring2
+- uint32 innerwear
+- uint32 head
+- uint32 face
+- uint64 appearance # TODO 8 byte buffer
 - int32  unk10
 - int32  unk11
 - int32  unk12
@@ -72,25 +63,27 @@ array  characters
 - int32  unk31
 - int32  unk32
 - int32  unk33
-- int32  mask
-- int32  unk34
-- int32  weaponSkin
-- int32  costume
+- int32  unk45
+- int32  unk46
+- uint32 hairAdornment # item ids
+- uint32 mask
+- uint32 back
+- uint32 weaponSkin
+- uint32 costume
 - int32  unk35
 - int32  unk36
-- int32  curRestedXp
-- int32  maxRestedXp
-- int32  unk37
+- uint32 curRestedXp
+- uint32 maxRestedXp
 - int16  unk38
+- int32  unk37
 - byte   unk39 # rested?
 - int32  unk40 # 100?
 - int32  unk41
-- int32  unk42
+- uint32 laurel # 0..5 (none, bronze, silver, gold, diamond, champion)
 - int32  unk43
 - int32  unk44
-- int32  unk45
-- int32  unk46
-- int32  unk47
+
+- array  unk # always empty?
 - string name
 - bytes  details
 - bytes  details2
