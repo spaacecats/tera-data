@@ -1,0 +1,8 @@
+uint32 skill
+uint64 cid
+float  x1
+float  y1
+float  w
+float  x2
+float  y2
+float  z1
