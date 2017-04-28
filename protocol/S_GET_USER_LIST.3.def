@@ -82,6 +82,7 @@ array  characters
 - uint32 laurel # 0..5 (none, bronze, silver, gold, diamond, champion)
 - int32  position # 1..characterCount (position in character selection screen)
 - int32  guildId
+- array unk # always empty?
 - string name
 - bytes  details
 - bytes  details2
