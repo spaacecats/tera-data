@@ -5,7 +5,10 @@ offset bonuses
 offset crafter
 offset soulbind
 
-int32  type # tooltip type (20 = hover | ?? = persistent)
+int32  type # tooltip type (20 = hover | 17 = persistent | 28 = etched)
+            # etched: after etching an item the etching glows
+            # persistent: clicked on chat links etched
+            # hover: usual tooltip that appears when hovered.
 int64  uid
 int32  item
 int64  uid2
@@ -17,7 +20,7 @@ int32  stackCount
 int32  enchant
 int32  unk7
 bool   isSoulbound
-float  unk9
+float  unk9 # something related to etching...
 int32  unk10
 int32  unk11
 int32  unk12
@@ -33,7 +36,7 @@ int32  unk21
 int32  unk22
 int32  unk23
 int32  unk24
-int32  unk25
+int32  remainingEtchTime
 int32  unk26
 int32  unk27
 int32  unk28
