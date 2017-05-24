@@ -42,7 +42,7 @@ int32  unk20
 int32  unk21
 int32  unk22
 int32  unk23
-int32  weaponEnchantment
+int32  weaponEnchantment # 0-15
 int32  unk25 # 100
 int32  item
 bytes  details
