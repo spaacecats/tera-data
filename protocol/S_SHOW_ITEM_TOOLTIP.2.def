@@ -20,7 +20,7 @@ int32  stackCount
 int32  enchant
 int32  unk7
 bool   isSoulbound
-int32  unk9 
+int32  unk9
 int32  etching
 int32  secret           # These has an id in passivities but are invisible.
 int32  unk12
@@ -69,15 +69,15 @@ int32  masterworkBonus # 1%: 0, 2%: 2, 3%: 4
 bool   compareStats # Draw second tooltip?
 int32  attack1
 int32  defense
-int32  impact               
+int32  impact
 int32  balance
 float  critFactor           # These stats all compare and print TOTAL WHEN EQUIPPED
-float  critResist           # compare 
-float  critPower            # compare 
-int32  totalImpact          # compare 
-int32  totalBalance         # compare 
-int32  totalAttackSpeed     # compare 
-int32  totalMoveSpeed       # compare 
+float  critResist           # compare
+float  critPower            # compare
+int32  totalImpact          # compare
+int32  totalBalance         # compare
+int32  totalAttackSpeed     # compare
+int32  totalMoveSpeed       # compare
 float  weakeningResist
 float  periodicDamageResist
 float  stunResist
@@ -114,7 +114,7 @@ int32  unk97
 int32  unk98
 int32  unk99
 int32  enchantmentAdvantage
-int32  unk101
+int32  setId
 int32  unk102
 int32  unk103
 int32  unk104
