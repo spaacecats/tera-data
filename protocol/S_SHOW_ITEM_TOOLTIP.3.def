@@ -114,7 +114,7 @@ int32  unk97
 int32  unk98
 int32  unk99
 int32  enchantmentAdvantage
-int32  unk101
+int32  setId
 int32  unk102
 int32  unk103
 int32  unk104
