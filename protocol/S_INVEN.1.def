@@ -17,6 +17,7 @@ int32  unk8
 array items
 - count  bonuses
 - offset bonuses
+- uint32 _parse
 - offset unk1 # possibly custom text?
 - int32  item
 - int64  uid
