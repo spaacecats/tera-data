@@ -90,7 +90,8 @@ string guildRank
 array  items
 - count  bonuses2
 - offset bonuses2
-- uint64 uid
+- int32  id
+- int32  uid
 - uint64 owner
 - int32  unk13
 - int32  slot
