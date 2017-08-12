@@ -1,3 +1,5 @@
+# Protocol version 319256 or later
+
 int32 curHp
 int32 unk11
 int32 curMp
