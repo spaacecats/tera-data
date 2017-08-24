@@ -1,0 +1,16 @@
+count  owners
+offset owners
+
+uint64 id
+float  x
+float  y
+float  z
+uint32 item
+uint32 amount
+int32  expiry
+int32  unk1
+int16  unk2
+uint64 mob
+byte   unk3
+array  owners
+- uint32 id
