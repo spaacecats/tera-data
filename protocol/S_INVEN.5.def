@@ -1,5 +1,6 @@
-count  items
-offset items
+# ONLY VALID FOR BUILD 313624 (KR)
+# 313623 and earlier use version 4
+
 uint64 id
 int64  coins
 byte   inventory
@@ -15,10 +16,6 @@ int32  unk7
 int32  unk8
 
 array items
-- count	 bonuses
-- offset bonuses
-- uint32 _parse
-- offset unk1
 - uint32 item
 - uint64 uid # no cid flags
 - uint64 ownerId # no cid flags
@@ -58,7 +55,12 @@ array items
 - bool   equipped
 - byte   unk23
 
-- array bonuses
-- - uint32 passivityId
+- array  passivitySets
+- - uint32 index
+- - uint64 unk1
+- - uint64 unk2
+
+- - array  passivities
+- - - uint32 id
 
 - string unk1 # possibly custom text?

@@ -1,0 +1,5 @@
+array rolls1
+- int32 id # 0 = unlocked
+
+array rolls2
+- int32 id # 0 = unlocked

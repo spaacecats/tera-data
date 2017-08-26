@@ -1,0 +1,13 @@
+# Protocol version 319256 or later
+
+uint32  curHp
+uint32  curHp2 # Need to test if the client actually interprets HP as 64 bits - ignore for now
+uint32  maxHp
+uint32  maxHp2 # Need to test if the client actually interprets HP as 64 bits - ignore for now
+int32  diff
+int32  dff2 # Need to test if the client actually interprets HP as 64 bits - ignore for now
+uint32  type
+uint64 target
+uint64 source
+byte   unk1 # 0?
+uint32 unk2

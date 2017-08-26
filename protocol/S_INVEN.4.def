@@ -1,5 +1,3 @@
-count  items
-offset items
 uint64 id
 int64  coins
 byte   inventory
@@ -15,10 +13,6 @@ int32  unk7
 int32  unk8
 
 array items
-- count	 bonuses
-- offset bonuses
-- uint32 _parse
-- offset unk1
 - uint32 item
 - uint64 uid # no cid flags
 - uint64 ownerId # no cid flags
@@ -59,6 +53,9 @@ array items
 - byte   unk23
 
 - array bonuses
+- - uint32 passivityId
+
+- array bonuses2
 - - uint32 passivityId
 
 - string unk1 # possibly custom text?
