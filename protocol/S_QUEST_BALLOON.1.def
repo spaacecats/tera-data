@@ -1,0 +1,4 @@
+offset message
+
+uint64 unk1 #possibly quest id
+string message
