@@ -1,4 +1,4 @@
-offset message
+offset unk2
 
 uint64 unk1 #possibly quest id
-string message
+string unk2
