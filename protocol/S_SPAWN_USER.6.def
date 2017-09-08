@@ -28,7 +28,7 @@ int32  mount
 int32  pose # See C_PLAYER_LOCATION.type / C_PLAYER_FLYING_LOCATION.type
 int32  title
 int64  shuttleId
-int32  guildEmblem
+int32  guildEmblemId
 bool   exarch
 bool   gm
 bool   gmInvisible
