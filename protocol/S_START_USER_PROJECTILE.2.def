@@ -11,3 +11,5 @@ float  toX
 float  toY
 float  toZ
 int16  toW
+uint32 unk1
+byte   unk2
