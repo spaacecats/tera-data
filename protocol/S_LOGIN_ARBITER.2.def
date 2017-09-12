@@ -1,7 +1,7 @@
 bool   success
 bool   unk1
-uint32 status # 0 = INT, 1 = KOR, 2 = USA, 3 = JPN, 4 = GER, 5 = FRA, 6 = EUR, 7 = TW, 8 = RUS
+uint32 status
 uint32 unk2
-uint32 language
+uint32 language # 0 = INT, 1 = KOR, 2 = USA, 3 = JPN, 4 = GER, 5 = FRA, 6 = EUR, 7 = TW, 8 = RUS
 bool   unk3 # true
 uint32 unk4
