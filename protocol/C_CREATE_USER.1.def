@@ -1,0 +1,10 @@
+int32  gender
+int32  race
+int32  class
+uint64 appearance
+bool   unused1
+uint32 appearance2
+bool   unused2
+string name
+bytes  details
+bytes  shape
