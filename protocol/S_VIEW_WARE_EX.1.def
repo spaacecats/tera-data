@@ -1,0 +1,15 @@
+[
+	{"name":"items","type":"count"},
+	{"name":"items","type":"offset"},
+	{"name":"unk1","type":"int32"},
+	{"name":"source","type":"int64"},
+	{"name":"banktype","type":"int32"},
+	{"name":"unk2","type":"int32"},
+	{"name":"unk3","type":"int32"},
+	{"name":"unk4","type":"int32"},
+	{"name":"unk5","type":"int32"},
+	{"name":"items","type":[
+	]}
+]
+
+TEMP
