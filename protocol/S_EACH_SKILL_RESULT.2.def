@@ -1,7 +1,7 @@
 # Protocol version 319256 or later
 
 uint64 source
-uint64 id0 # 0 or projectile owner id
+uint64 owner # If non-zero, then source is a projectile and this is the actual source
 uint64 target
 uint32 model
 uint32 skill
