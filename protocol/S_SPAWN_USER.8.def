@@ -31,10 +31,10 @@ int32  guildEmblemId
 bool   exarch
 bool   gm
 bool   gmInvisible
-uint32 modelWeapon
-uint32 modelBody
-uint32 modelHand
-uint32 modelFeet
+uint32 weaponModel
+uint32 bodyModel
+uint32 handModel
+uint32 feetModel
 uint32 weaponDye # ignored
 uint32 bodyDye
 uint32 handDye
