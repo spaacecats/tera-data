@@ -1,6 +1,6 @@
 ﻿uint32 serverId
 uint32 playerId
-uint64 cid
+uint64 guid
 float  x
 float  y
 float  z
