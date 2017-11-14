@@ -9,7 +9,7 @@ uint32 face
 uint32 weaponModel
 uint32 bodyModel
 uint32 handModel
-uint32 feedModel
+uint32 feetModel
 uint32 weaponDye # ignored
 uint32 bodyDye
 uint32 handDye
