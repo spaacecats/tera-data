@@ -75,4 +75,4 @@ string guild
 string guildRank
 bytes  details
 string guildEmblem
-bytes  details2
+bytes  shape
