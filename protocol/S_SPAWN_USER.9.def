@@ -54,8 +54,8 @@ uint32 styleFace
 uint32 styleBack
 uint32 styleWeapon
 uint32 styleBody
-uint32 styleBodyDye
 uint32 styleFootprints
+uint32 styleBodyDye
 int32  partyServer
 int32  partyId
 bool   unk6
