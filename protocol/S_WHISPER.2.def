@@ -1,4 +1,4 @@
-offset author
+offset authorName
 offset recipient
 offset message
 
@@ -6,6 +6,6 @@ uint64 player
 byte   unk1
 byte   gm
 byte   founder # CBT User. Обладатель набора раннего доступа. Титул основателя.
-string author
+string authorName
 string recipient
 string message
