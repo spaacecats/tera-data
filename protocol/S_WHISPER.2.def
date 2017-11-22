@@ -5,7 +5,7 @@ offset message
 uint64 player
 byte   unk1
 byte   gm
-byte   founder # CBT User. Обладатель набора раннего доступа. Титул основателя.
+byte   founder # CBT User. Early access set.
 string authorName
 string recipient
 string message
