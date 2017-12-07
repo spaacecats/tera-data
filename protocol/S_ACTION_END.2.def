@@ -16,9 +16,11 @@ uint32 type # 0 = Finished
             # 11 = Button Release + Chain (ex. Mystic: Corruption Ring)
             # 13 = Out of Stamina
             # 19 = Invalid Target
+            # 25 = Unknown (ex. Command: Recall)
             # 36 = Lockon Cast
             # 37 = Interrupted by Loading
             # 39 = Dash Finished
             # 43 = Interrupted by Cutscene
+            # 49 = Unknown (HB uses this for Recall)
             # 51 = Finished + Button Release (ex. Brawler: Counter)
 uint32 id
