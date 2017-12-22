@@ -1,1 +1,10 @@
-{"EU": 324671, "NA": 324670, "RU": 324672, "JP": 324674, "TW": 324673, "KR": 323464, "KR-PTR": 323464, "EU-PTR": 324671}
+{
+    "EU": {"version": 324671, "protocol_hash": "bb69ea5bc01e6cdb686a8c50e4bc7f43842225ea4d65d12b0f0f938a4abeb8a0", "sysmsg_hash": "0cb047b8faa0c49342b8b75b4b025d96899edf87b078b94263b3879dcf04ded4"}, 
+    "NA": {"version": 324670, "protocol_hash": "31b218b3fb32caed7892a61f9beb12a2d8ae3e391d396e852948937f5b79d784", "sysmsg_hash": "0cb047b8faa0c49342b8b75b4b025d96899edf87b078b94263b3879dcf04ded4"}, 
+    "RU": {"version": 324672, "protocol_hash": "15846ab774799ce3c239ae40bbf4417f24f0615fb229283520a463ebe3353a5f", "sysmsg_hash": "0cb047b8faa0c49342b8b75b4b025d96899edf87b078b94263b3879dcf04ded4"},
+    "JP": {"version": 324674, "protocol_hash": "aff6cebfd29857e865bdfc702b41d233f1d84b1a543bfeeb56a6d7d4d812fa92", "sysmsg_hash": "0cb047b8faa0c49342b8b75b4b025d96899edf87b078b94263b3879dcf04ded4"}, 
+    "TW": {"version": 324673, "protocol_hash": "fee0ba0bd1a5c02fbe1bdffb84042f303ce714e2b89b577280a6e00d54e9517d", "sysmsg_hash": "0cb047b8faa0c49342b8b75b4b025d96899edf87b078b94263b3879dcf04ded4"}, 
+    "KR": {"version": 323464, "protocol_hash": "a1992e4eb2d2960fd13da62a94c9f7340ca6064d471e3b24ca6d5b1aa9b58814", "sysmsg_hash": "ecdd351a032211d2a79cc0d62b7aaedb61c3d725789d6967a6ea2b044da88113"}, 
+    "KR-TEST": {"version": 323464, "protocol_hash": "a1992e4eb2d2960fd13da62a94c9f7340ca6064d471e3b24ca6d5b1aa9b58814", "sysmsg_hash": "ecdd351a032211d2a79cc0d62b7aaedb61c3d725789d6967a6ea2b044da88113"}, 
+    "EU-TEST": {"version": 324671, "protocol_hash": "bb69ea5bc01e6cdb686a8c50e4bc7f43842225ea4d65d12b0f0f938a4abeb8a0", "sysmsg_hash": "0cb047b8faa0c49342b8b75b4b025d96899edf87b078b94263b3879dcf04ded4"}
+}
