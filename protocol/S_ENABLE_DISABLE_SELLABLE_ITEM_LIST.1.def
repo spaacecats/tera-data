@@ -1,0 +1,12 @@
+bool Enabled1
+bool Enabled2
+bool Enabled3
+
+array Items1
+- uint32 id
+
+array Items2
+- uint32 id
+
+array Items3
+- uint32 id
