@@ -1,0 +1,10 @@
+uint64 uid
+int32 item
+int32 amount # ?
+float x
+float y
+float z
+int16 w
+bool unk1
+bool unk2
+int32 unk3
