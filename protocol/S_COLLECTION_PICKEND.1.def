@@ -1,4 +1,4 @@
-uint64 user
-uint64 collection
-int32  addProficiency
-int32  fatigability
+uint64 playerId
+uint64 nodeId
+uint32 result
+uint32 productionPoints
