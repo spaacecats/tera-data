@@ -3,7 +3,7 @@ uint64 sourceUniqueId
 uint32 sourceItemId
 uint32 resultItemId
 uint32 resultEnchantLevel
-uint8 unk1
+byte unk1
 uint32 unk2
 uint32 sourceEnchantLevel
 uint64 itemEXP
