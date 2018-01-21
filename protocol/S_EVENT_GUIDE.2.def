@@ -11,7 +11,7 @@ array weeks
 
 array events
 - uint32 id
-- uint64 start  # Unix time
-- uint64 end    # Unix time
+- int64  start  # Unix time
+- int64  end    # Unix time
 - string caption
 - string description
