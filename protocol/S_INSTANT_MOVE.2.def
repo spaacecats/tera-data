@@ -1,5 +1,3 @@
 uint64 gameId
-float x
-float y
-float z
-int16 w
+vec3   loc
+angle  w
