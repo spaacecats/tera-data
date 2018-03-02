@@ -7,5 +7,5 @@
     "TH": {"version": 327425, "protocol_hash": "eb61054b6ead2c4b1f3a7ab0ba1b28bb6311319c64b56cf06ee344e6048828b3", "sysmsg_hash": "379118ef2bc3cba7abdfffc3b13b46e163fb3eebdd284f7c4f053f1709c3f925"},
     "KR": {"version": 328305, "protocol_hash": "7a72e8d8f2498bcc686a5b2055618a8643dd438be83372a03d733dc03a638e2b", "sysmsg_hash": "afc65b63b4da847cc455d74278bff2b5ab001e73d635997596d4d4fd93b0ec03"},
     "KR-TEST": {"version": 328305, "protocol_hash": "7a72e8d8f2498bcc686a5b2055618a8643dd438be83372a03d733dc03a638e2b", "sysmsg_hash": "afc65b63b4da847cc455d74278bff2b5ab001e73d635997596d4d4fd93b0ec03"},
-    "EU-TEST": {"version": 324922, "protocol_hash": "245fc9fb209358430ac1bb9f762d2d8a3cdb7f5564a597877887a9a5fe371c15", "sysmsg_hash": "7f6cc9ea8ff6220157289ace47d54312ebd2170b2d3f5f2da73feee24cb23315"}
+    "EU-TEST": {"version": 328427, "protocol_hash": "46cfd66c5e7e491e3df5e83aa38bb5a78f325e8ce80ed8fc0a767ed57ec6d014", "sysmsg_hash": "7f6cc9ea8ff6220157289ace47d54312ebd2170b2d3f5f2da73feee24cb23315"}
 }
