@@ -1,5 +1,5 @@
 uint32 winnerId
-int32 unk #always 4?
+int32 maxPages
 
 array guilds
 -uint32 id
