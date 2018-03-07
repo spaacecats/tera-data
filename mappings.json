@@ -1,11 +1,11 @@
 {
-    "EU": {"version": 328427, "major_patch": 66, "protocol_hash": "46cfd66c5e7e491e3df5e83aa38bb5a78f325e8ce80ed8fc0a767ed57ec6d014", "sysmsg_hash": "7f6cc9ea8ff6220157289ace47d54312ebd2170b2d3f5f2da73feee24cb23315"},
+    "EU": {"version": 328427, "major_patch": 66, "protocol_hash": "ff9a0c8b052550fa51539b65ab80cc4c5777ae53212c0963b35189cb9f8b6371", "sysmsg_hash": "7f6cc9ea8ff6220157289ace47d54312ebd2170b2d3f5f2da73feee24cb23315"},
     "NA": {"version": 326439, "major_patch": 64, "protocol_hash": "626fc7eaf272b9e6dcad4f2095bf9b6b147bf423fa6cc08b3ac2687091ab5b0b", "sysmsg_hash": "379118ef2bc3cba7abdfffc3b13b46e163fb3eebdd284f7c4f053f1709c3f925"},
     "RU": {"version": 326441, "major_patch": 64, "protocol_hash": "178f06e0dac19c0a48236e4e2373804aa6ffb5b16b7cd4ab72a3533d040f5099", "sysmsg_hash": "379118ef2bc3cba7abdfffc3b13b46e163fb3eebdd284f7c4f053f1709c3f925"},
-    "JP": {"version": 328426, "major_patch": 66, "protocol_hash": "397302974b89cb4c10aec7ff28ca1956fa01c02560784c7ffd6a5768f6a532e5", "sysmsg_hash": "7f6cc9ea8ff6220157289ace47d54312ebd2170b2d3f5f2da73feee24cb23315"},
+    "JP": {"version": 328426, "major_patch": 66, "protocol_hash": "389d1a27c2b8ee791551c31ee5ecefd8d50b561c429946d0b7e6a327451b9c00", "sysmsg_hash": "7f6cc9ea8ff6220157289ace47d54312ebd2170b2d3f5f2da73feee24cb23315"},
     "TW": {"version": 326442, "major_patch": 64, "protocol_hash": "786ff11b3b43e30d28a485b005c22fb769ecb6439b4be2b26de5095495e40e9d", "sysmsg_hash": "379118ef2bc3cba7abdfffc3b13b46e163fb3eebdd284f7c4f053f1709c3f925"},
     "TH": {"version": 327425, "major_patch": 64, "protocol_hash": "eb61054b6ead2c4b1f3a7ab0ba1b28bb6311319c64b56cf06ee344e6048828b3", "sysmsg_hash": "379118ef2bc3cba7abdfffc3b13b46e163fb3eebdd284f7c4f053f1709c3f925"},
-    "KR": {"version": 328305, "major_patch": 69, "protocol_hash": "7a72e8d8f2498bcc686a5b2055618a8643dd438be83372a03d733dc03a638e2b", "sysmsg_hash": "afc65b63b4da847cc455d74278bff2b5ab001e73d635997596d4d4fd93b0ec03"},
-    "KR-TEST": {"version": 328305, "major_patch": 69, "protocol_hash": "7a72e8d8f2498bcc686a5b2055618a8643dd438be83372a03d733dc03a638e2b", "sysmsg_hash": "afc65b63b4da847cc455d74278bff2b5ab001e73d635997596d4d4fd93b0ec03"},
-    "EU-TEST": {"version": 328427, "major_patch": 66, "protocol_hash": "46cfd66c5e7e491e3df5e83aa38bb5a78f325e8ce80ed8fc0a767ed57ec6d014", "sysmsg_hash": "7f6cc9ea8ff6220157289ace47d54312ebd2170b2d3f5f2da73feee24cb23315"}
+    "KR": {"version": 328305, "major_patch": 69, "protocol_hash": "51fe9b7e7a5472c9aaab879d7de3d998aee107df56804e725914b0fcb3716f38", "sysmsg_hash": "afc65b63b4da847cc455d74278bff2b5ab001e73d635997596d4d4fd93b0ec03"},
+    "KR-TEST": {"version": 328305, "major_patch": 69, "protocol_hash": "51fe9b7e7a5472c9aaab879d7de3d998aee107df56804e725914b0fcb3716f38", "sysmsg_hash": "afc65b63b4da847cc455d74278bff2b5ab001e73d635997596d4d4fd93b0ec03"},
+    "EU-TEST": {"version": 328427, "major_patch": 66, "protocol_hash": "ff9a0c8b052550fa51539b65ab80cc4c5777ae53212c0963b35189cb9f8b6371", "sysmsg_hash": "7f6cc9ea8ff6220157289ace47d54312ebd2170b2d3f5f2da73feee24cb23315"}
 }
