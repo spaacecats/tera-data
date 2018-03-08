@@ -1,0 +1,6 @@
+int16 yaw
+int16 pitch
+int16 toYaw
+int16 toPitch
+int32 unk
+int32 unk2
