@@ -1,6 +1,6 @@
-int16 yaw
-int16 pitch
-int16 toYaw
-int16 toPitch
+angle yaw
+angle pitch
+angle toYaw
+angle toPitch
 int32 unk
 int32 unk2
