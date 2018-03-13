@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 uint64 source
 uint64 target
 int32 unk
@@ -6,13 +5,4 @@ uint32 skill
 float x
 float y
 float z
-=======
-uint64 source
-uint64 target
-int32 unk
-uint32 skill
-float x
-float y
-float z
->>>>>>> caali/master
 bool success #always true?

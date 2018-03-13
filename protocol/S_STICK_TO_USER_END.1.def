@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 int64 target
 int64 source
 float x
 float y
-=======
-int64 target
-int64 source
-float x
-float y
->>>>>>> caali/master
 float z
