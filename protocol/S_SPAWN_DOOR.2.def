@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 uint64 gameId
 uint32 door
+=======
+uint64 gameId
+uint32 door
+>>>>>>> caali/master
 bool open
