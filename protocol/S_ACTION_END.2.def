@@ -17,6 +17,7 @@ uint32 type # 0 = Finished
             # 13 = Out of Stamina
             # 19 = Invalid Target
             # 25 = Unknown (ex. Command: Recall)
+            # 29 = Interrupted by entering water
             # 36 = Lockon Cast
             # 37 = Interrupted by Loading
             # 39 = Dash Finished
