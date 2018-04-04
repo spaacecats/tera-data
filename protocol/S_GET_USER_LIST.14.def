@@ -1,3 +1,5 @@
+# MajorPatchVersion >= 67
+
 bool   veteran
 uint32 gameTimeRemaining # old P2P content, values below 60 don't display anything
 uint32 maxCharacters
@@ -15,7 +17,7 @@ array  characters
 - uint32 race # 0..5
 - uint32 class # 0..12
 - uint32 level
-- int32  hp
+- int64  hp
 - int32  mp
 - uint32 worldMapWorldId
 - uint32 worldMapGuardId
@@ -66,16 +68,30 @@ array  characters
 - uint32 styleBackDye
 - uint32 styleHeadDye
 - uint32 styleFaceDye
-- uint32 head
-- uint32 face
+- uint32 styleHead
+- uint32 styleFace
 - uint32 styleBack
 - uint32 styleWeapon
 - uint32 styleBody
+- uint32 styleFootprint
 - uint32 styleBodyDye
 - uint32 weaponEnchant
 - int32  curRestedXp
 - int32  maxRestedXp
 - bool   showFace
+- float  styleHeadScale
+- vec3fa styleHeadRotation
+- vec3   styleHeadTranslation
+- vec3   styleHeadTranslationDebug
+- float  styleFaceScale
+- vec3fa styleFaceRotation
+- vec3   styleFaceTranslation
+- vec3   styleFaceTranslationDebug
+- float  styleBackScale
+- vec3fa styleBackRotation
+- vec3   styleBackTranslation
+- vec3   styleBackTranslationDebug
+- bool   accessoryTransformUnk
 - int32  unk22 # 0?
 - byte   unk23 # 0?
 - bool   showStyle
@@ -84,9 +100,10 @@ array  characters
 - int32  laurel # -1..5 (none, none, bronze, silver, gold, diamond, champion)
 - int32  position # 1..characterCount (position in character selection screen)
 - int32  guildId
+- int32  awakeningLevel
 - array  customStrings
-- - int32 itemId
-- - string value
+- - uint32 dbid
+- - string string
 - string name
 - bytes  details
 - bytes  shape
