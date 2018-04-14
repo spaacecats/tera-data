@@ -1,7 +1,0 @@
-uint64 item
-int32 enigmaScroll
-uint64 entity
-int32 idScroll
-uint64 rolledItem
-int32 itemID
-int32 set

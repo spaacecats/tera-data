@@ -1,7 +1,7 @@
 ﻿uint64 gameId
 vec3   loc
 angle  w
-int32  templateId
+uint32  templateId
 uint32 skill
 int32  stage
 float  speed

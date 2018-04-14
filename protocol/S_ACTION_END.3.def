@@ -1,7 +1,7 @@
 ﻿uint64 gameId
 vec3   loc
 angle  w
-int32  templateId
+uint32  templateId
 uint32 skill
 int32  type # 0 = Finished
             # 1 = Cancel (lockon)
@@ -13,6 +13,7 @@ int32  type # 0 = Finished
             # 10 = Button Release
             # 11 = Button Release + Chain (ex. Mystic: Corruption Ring)
             # 13 = Out of Stamina
+            # 15 = Aggro Switch
             # 19 = Invalid Target
             # 25 = Unknown (ex. Command: Recall)
             # 29 = Interrupted by Terrain (ex. entering water)
