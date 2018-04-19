@@ -1,6 +1,3 @@
-count listings
-offset listings
-
 int32 page
 int32 pageCount
 array listings
