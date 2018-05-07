@@ -37,7 +37,7 @@ array items
 - int32  unk6
 - int64  dyeExpiryDate
 - bool   masterwork
-- uint32 enigma
+- int32  enigma
 - int32  unk7
 - int32  enchantAdvantage # % x 100
 - int32  enchantAdvantageBonus # % x 100 (added to enchantAdvantage + displayed separately)
