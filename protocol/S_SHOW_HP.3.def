@@ -1,8 +1,8 @@
 uint64 gameId
-float  curHp
-float  maxHp
+int64  curHp
+int64  maxHp
 byte   enemy
 int32  edgeD
 float  edgeF
-int32  duration
+int32  edgeDuration
 int32  unk
