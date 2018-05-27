@@ -1,4 +1,4 @@
-# Sets player scale multiplier from abnormalities
+# Sets entity scale multiplier from abnormalities
 
 uint64 gameId
 float  scale
