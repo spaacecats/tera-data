@@ -1,4 +1,6 @@
-﻿uint64    id
+﻿# MajorPatchVersion < 74
+
+uint64    id
 uint32    unk1
 skillid32 skill
 vec3      loc

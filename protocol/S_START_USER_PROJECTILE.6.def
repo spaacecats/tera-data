@@ -1,3 +1,5 @@
+# MajorPatchVersion < 74
+
 uint64    gameId
 int32     templateId
 uint64    id

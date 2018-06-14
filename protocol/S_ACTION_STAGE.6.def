@@ -1,4 +1,6 @@
-﻿uint64    gameId
+﻿# MajorPatchVersion < 74
+
+uint64    gameId
 vec3      loc
 angle     w
 int32     templateId

@@ -1,3 +1,5 @@
+# MajorPatchVersion < 74
+
 uint64    gameId
 skillid32 skill   # the enemy skill being blocked
 uint32    unk4    # always 0?

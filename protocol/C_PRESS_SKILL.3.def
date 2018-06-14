@@ -1,3 +1,5 @@
+# MajorPatchVersion < 74
+
 skillid32 skill
 bool      press
 vec3      loc
