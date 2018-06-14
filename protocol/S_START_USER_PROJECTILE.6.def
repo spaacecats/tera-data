@@ -1,0 +1,11 @@
+# MajorPatchVersion < 74
+
+uint64    gameId
+int32     templateId
+uint64    id
+skillid32 skill
+vec3      loc
+vec3      dest
+float     speed
+float     distance
+bool      curve
