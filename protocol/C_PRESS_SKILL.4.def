@@ -1,0 +1,4 @@
+skillid skill
+bool    press
+vec3    loc
+angle   w
