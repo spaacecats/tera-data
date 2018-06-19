@@ -1,7 +1,7 @@
 # MajorPatchVersion >= 74
 
 uint64  source
-uint64  owner       # If non-zero, then source is a projectile and this is its owner
+uint64  owner      # If non-zero, then source is a projectile and this is its owner
 uint64  target
 int32   templateId
 skillid skill
@@ -18,7 +18,7 @@ bool    stackExplode
 bool    blocked
 int32   part
 
-object  reaction # Used for knockdown, stagger etc.
+object  reaction   # Used for knockdown, stagger etc.
 - bool    enable
 - bool    instantPush
 - bool    air
