@@ -1,4 +1,4 @@
-# MajorPatchVersion < 74
+# MajorPatchVersion >= 74
 
 uint64  source
 uint64  owner       # If non-zero, then source is a projectile and this is its owner
