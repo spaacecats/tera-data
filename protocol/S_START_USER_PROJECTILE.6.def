@@ -1,3 +1,5 @@
+# majorPatchVersion >= 75
+
 uint64 gameId
 int32  templateId
 int32 unk1 # 0? (new)

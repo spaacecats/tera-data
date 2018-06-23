@@ -1,4 +1,4 @@
-﻿# MajorPatchVersion >= 74
+﻿# majorPatchVersion >= 75
 
 uint64  gameId
 vec3    loc
