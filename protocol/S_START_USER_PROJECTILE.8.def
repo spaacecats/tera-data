@@ -4,8 +4,7 @@ uint64 gameId
 int32  templateId
 int32 unk1 # 0? (new)
 uint64 id
-uint32 skill
-int32 unk2 # 0? (new)
+skillid skill # requires type: 0, npc: false (implies huntingZoneId: 0), and reserved: 0 
 vec3   loc
 vec3   dest
 float  speed
