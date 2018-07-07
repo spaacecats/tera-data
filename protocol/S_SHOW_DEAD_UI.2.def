@@ -1,0 +1,5 @@
+int32 revivalMinutes
+int32 regionId
+bool  unk1
+int32 unk2
+int32 resItemAmount
