@@ -48,7 +48,8 @@ The following simple field types are supported:
 - `bool`: A single byte that equals `true` for any non-zero value (and
   optionally warns for any value above 1).
 - `byte`
-- `float`: A four-byte floating-point number.
+- `float`
+- `double`
 - `int16`
 - `int32`
 - `int64`
