@@ -1,4 +1,4 @@
 uint64 gameId
 int32 socialId
 int32 type # 0: player social, 2: vehicle social
-bool  superSocial # The client will wait for anim end if super socializing, super emotes will cancel others as well. No idea what it actually is but that's what i noticed.
+bool  forceAnimation # Gives priority over any other socials.
