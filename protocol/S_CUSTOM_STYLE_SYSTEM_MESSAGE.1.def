@@ -1,2 +1,2 @@
-int style
+int32 style
 string message
