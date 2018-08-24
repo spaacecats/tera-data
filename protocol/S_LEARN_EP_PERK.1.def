@@ -1,0 +1,5 @@
+bool success
+uint32 usedPoints
+array perks
+- id
+- level
