@@ -7,5 +7,5 @@ uint32 dailyExpMax
 uint32 prevLevel
 uint32 prevTotalPoints
 array perks
-- id
-- level
+- uint32 id
+- uint32 level
