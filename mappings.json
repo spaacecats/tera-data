@@ -1,5 +1,5 @@
 {
-    "EU": {"version": 335638, "major_patch": 72, "minor_patch": 3, "protocol_hash": "48a2c2edd74e566b1b868994026fdb0d48ac25852395c92a9e411a792dae9bc2", "sysmsg_hash": "359855aa9c45bc977122714f01b6a5a71a63eb1626747b4f8903be71125b4cf2"},
+    "EU": {"version": 336872, "major_patch": 74, "minor_patch": 3, "protocol_hash": "02850857d9e8cfcd1442098159b13bd4b8e6af9e1b71240e7c7435444fb8638b", "sysmsg_hash": "1c5139d09b853107cd349da25ed5c0878b42c48eb5edcf266b5fb6489c4b83e5"},
     "NA": {"version": 335637, "major_patch": 72, "minor_patch": 3, "protocol_hash": "16b8bd62a1477b201baf8c04d58b91d6f104456528a16c39c6eaa8138d06ed3f", "sysmsg_hash": "359855aa9c45bc977122714f01b6a5a71a63eb1626747b4f8903be71125b4cf2"},
     "RU": {"version": 335640, "major_patch": 72, "minor_patch": 3, "protocol_hash": "750bfad050637376983ca7d5054b5959f4dbef09fd3b6f4e46f96c547d2a5588", "sysmsg_hash": "359855aa9c45bc977122714f01b6a5a71a63eb1626747b4f8903be71125b4cf2"},
     "JP": {"version": 335639, "major_patch": 72, "minor_patch": 3, "protocol_hash": "1d3a6f1507ff922469f828390dfe0ce33d016f696ddc6d3d9702afcd5fc008b6", "sysmsg_hash": "359855aa9c45bc977122714f01b6a5a71a63eb1626747b4f8903be71125b4cf2"},
