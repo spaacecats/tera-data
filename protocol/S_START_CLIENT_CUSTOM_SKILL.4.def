@@ -1,4 +1,4 @@
-# majorPatchVersion >= 75
+# majorPatchVersion >= 74
 
 uint64 gameId
 skillid skill
