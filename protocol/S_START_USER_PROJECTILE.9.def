@@ -1,4 +1,4 @@
-# majorPatchVersion >= 74
+# majorPatchVersion >= 75
 
 uint64 gameId
 int32  templateId
@@ -10,3 +10,4 @@ vec3   dest
 float  speed
 float  distance
 bool   curve
+float  projectileSpeed # (same as S_ACTION_STAGE's)
