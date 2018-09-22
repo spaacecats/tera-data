@@ -1,9 +1,0 @@
-uint64 id
-bool   end
-float  x
-float  y
-float  z
-
-array  targets
-- uint64 target
-- uint32 unk
