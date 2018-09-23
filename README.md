@@ -48,13 +48,28 @@ The following simple field types are supported:
 - `bool`: A single byte that equals `true` for any non-zero value (and
   optionally warns for any value above 1).
 - `byte`
-- `float`: A four-byte floating-point number.
+- `float`
+- `double`
 - `int16`
 - `int32`
 - `int64`
 - `uint16`
 - `uint32`
 - `uint64`
+
+The following complex field types are supported:
+- `vec3` - 3D vector used for location. See [tera-vec3](https://github.com/pinkipi/tera-vec3).
+- `vec3fa` - Rotation Vec3 used for accessory transforms.
+- `skillid` - An abstract representation of packed skill IDs. Contains the following properties and methods:
+- - `npc` (Boolean) Indicates an NPC skill
+- - `type` (Number) 1 = Action, 2 = Reaction (CC, pull, etc.)
+- - `huntingZoneId` (Number) secondary key for type 1 NPC skills
+- - `id` (Number) Skill ID
+- - `reserved` (Number) Reserved bits, typically unused
+- - `equals(skillId)`
+- - `clone()`
+- - `toString()`
+- `skillid32` - 32-bit packed SkillIDs. To be removed when all regions are on patch 74.
 
 There is one type that is not directly represented by the raw data and instead
 serves organizational purposes:

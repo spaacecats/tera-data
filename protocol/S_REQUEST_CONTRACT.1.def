@@ -18,6 +18,7 @@ int32  type # 3 = Trade Request, 4 = Party Invite, 9 = Merchant/Shop Open,
             # 53 = Village Atlas, 54 = Travel Journal, 56 = Friend Summon,
             # 61 = Shape Change, 62 = Old Tera Store, 66 = Bamarama Wager,
             # 69 = Crystal Fusion, 70 = Awakening, 74 = Liberate Item,
+            # 75 = Enchantment Scrolls
             # 76 = Dressing Room, 77 = EP/Talents (Disabled/Korea only),
             # 79 = Dungeon Ace Shop, 80 = Emporium Shop,
             # 83 = Guild Gold Distribution, 84 = Convert Item,
