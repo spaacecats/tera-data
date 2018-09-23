@@ -1,0 +1,2 @@
+int32 socialId
+bool  triggeredByChatMessage # This also means no S_CHAT from channel 26.

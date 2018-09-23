@@ -1,0 +1,4 @@
+uint64 gameId
+int32 socialId
+int32 type # 0: player social, 2: vehicle social
+bool  forceAnimation # Gives priority over any other socials.
